@@ -43,7 +43,7 @@
 
 (defun nerd-fonts--propertize (glyph)
   (propertize glyph
-              'face '(:family "Hack Nerd Font" :height 1.5)))
+              'face '(:family "Iosevka Nerd Font" :height 1.5)))
 
 (defun nerd-fonts--construct-candidates ()
   (mapcar (lambda (nerd-fonts)
