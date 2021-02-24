@@ -53,6 +53,5 @@
     (insert ";; This file is generated automatically. DO NOT change it !!\n")
     (insert (format "(defconst nerd-fonts-alist '%S)" el-data))
     (insert "\n(provide 'nerd-fonts-data)")
-    (el-beautify (point-min) (point-max))
     (write-file (expand-file-name "../nerd-fonts-data.el"))
     ))
